@@ -7,3 +7,6 @@ app = FastAPI()
 def hello():
     return {"response": "JTM Josse"}
 
+@app.post("/prediction")
+def prediction(item):
+    return
